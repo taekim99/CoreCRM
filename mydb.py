@@ -5,10 +5,11 @@
 
 import mysql.connector
 
+# ! CAHNGE ACCORDING TO YOUR SETTINGS
 dataBase = mysql.connector.connect(
-    host = 'localhost',
-    user = 'root',
-    passwd = 'onetwothree'
+    host = '', # Ex: localhost
+    user = '', # Ex: root
+    passwd = '' # Ex: onetwothreeFourFive
 )
 
 # prepare a cursot object
